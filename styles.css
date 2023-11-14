@@ -1,0 +1,90 @@
+.btn {
+	color: rgb(112, 44, 186);
+	border: solid 2px rgb(112, 44, 186);
+}
+.btn:hover,
+#nextBtn {
+	color: white;
+	background-color: rgb(98, 56, 235);
+	border-color: rgb(98, 56, 235);
+}
+.btn:focus {
+	color: white !important;
+	border-color: rgb(98, 56, 235);
+	background-color: rgb(98, 56, 235);
+}
+.btn:active {
+	color: white !important;
+	border-color: rgb(98, 56, 235) !important;
+	background-color: rgb(98, 56, 235) !important;
+}
+.navbar-collapse.collapsing,
+.navbar-collapse.show > * > * {
+	padding-bottom: 10px;
+}
+#prevBtn:hover {
+	color: rgb(112, 44, 186);
+	border: solid 2px rgb(112, 44, 186);
+	background-color: transparent;
+}
+
+.lab {
+	margin-left: 11px !important;
+}
+
+.mt-6 {
+	margin-top: 120px !important;
+}
+.mt-7 {
+	margin-top: 120px !important;
+	margin-bottom: -100px !important;
+}
+.dropdown-item:active {
+	background-color: rgb(98, 56, 235) !important;
+}
+.dropdown-menu .dropdown-submenu {
+	display: none;
+	position: absolute;
+	left: 100%;
+	top: -7px;
+}
+.dropdown-menu li {
+	position: relative;
+}
+.dropdown-menu .dropdown-submenu-left {
+	right: 100%;
+	left: auto;
+}
+.dropdown-menu > li:hover > .dropdown-submenu {
+	display: block;
+}
+a.disabled {
+	pointer-events: none;
+	cursor: default;
+}
+#count_message {
+	background-color: smoke !important;
+	margin-top: -200px !important;
+	margin-right: 5px !important;
+}
+
+.card img {
+	max-width: 200px;
+	min-width: 180px;
+	margin: auto;
+	padding: 0.5em;
+	border-radius: 1em;
+}
+.cardd {
+	flex-direction: row;
+	max-width: 35em;
+}
+.fav {
+	z-index: 2;
+	position: absolute;
+	bottom: 5px;
+	right: -7px;
+}
+.empty{
+  border: none;
+}
