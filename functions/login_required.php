@@ -12,7 +12,7 @@ function login_required($user_type)
         navbar(0);
       } else {
         navbar(2);
-        feedback("red", "Vous n'avez pas le droit à accéder à cette page!", "Vous serez dirigé vers la page d'acceuil dans 3s.");
+        feedback("red", "You don't have the right to access this page!", "You will be redirected to homepage in 3s.");
         header('refresh: 3; url=' . $GLOBALS["url2"]);
         exit();
       }
@@ -23,7 +23,7 @@ function login_required($user_type)
       } else {
 
         navbar(2);
-        feedback("red", "Vous devez être connecté pour accéder à cette page!", "Vous serez dirigé vers la page de connection dans 3s.");
+        feedback("red", "You need to be logged in to view this page!", "You will be redirected to login page in 3s.");
         header('refresh: 3; url=' . $GLOBALS["url2"] . 'login');
         exit();
       }
