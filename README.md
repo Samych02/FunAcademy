@@ -3,7 +3,7 @@
 
 Welcome to FunAcademy, a delightful platform for children to explore and enjoy a collection of captivating stories. Our website allows kids to watch, listen, or read stories, and even create their accounts to personalize their experience.
 
-You can try a live version of this website by visiting this link: https://funacademy.samych02.me
+~You can try a live version of this website by visiting this link: https://funacademy.samych02.me~ (My domain expired :( )
 ## Features
 
 ### 1. Story Formats
